@@ -1,5 +1,5 @@
 import React from 'react'
-import sellingListStyles from '../styles/Sellings.module.css'
+import sellingListStyles from '../../styles/Sellings.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 export default function SellingItem({selling}) {

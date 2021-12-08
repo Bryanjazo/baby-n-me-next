@@ -1,9 +1,12 @@
 import Head from 'next/head'
+import React, {useEffect, useState} from 'react'
 import {server} from '../config/index'
 import styles from '../styles/Home.module.css'
-import SellingsList from '../components/SellingsList'
+import SellingsList from '../components/Selling/SellingsList'
 export default function Home({sellings}) {
-console.log(sellings)
+  
+
+
   return (
     <div className={styles.container}>
       <SellingsList sellings={sellings}/>
