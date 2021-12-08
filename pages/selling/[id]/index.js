@@ -9,7 +9,9 @@ export default function Selling({selling}) {
     return (
         <div>
             <Image src={selling.image_url} alt={selling.title} width={300} height={200}/>
-            <p>{`this is a selling with an id of `}</p>
+            <p>{selling.title}</p>
+            <p>{selling.price}</p>
+            <p>{selling.location}</p>
         </div>
     )
 }
